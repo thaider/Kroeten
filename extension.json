@@ -1,0 +1,24 @@
+{
+	"name": "Kroeten",
+		"version": "0.0.1",
+		"author": [
+			"Tobias Haider"
+		],
+		"license-name": "GPL-3.0-or-later",
+		"ResourceModules": {
+			"ext.kroeten": {
+				"scripts": [
+					"ext.kroeten.js"
+				],
+				"messages": [
+					"Stundensatz"
+				],
+				"dependencies": []
+			}
+		},
+		"ResourceFileModulePaths": {
+			"localBasePath": "modules",
+			"remoteExtPath": "Kroeten/modules"
+		},
+		"manifest_version": 2
+}
